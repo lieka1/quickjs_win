@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libbf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libregexp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libunicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libWin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qjs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qjsc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quickjs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quickjs-libc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="run-test262.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unicode_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cutils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libbf.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libregexp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libregexp-opcode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libunicode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libunicode-table.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libWin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quickjs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quickjs-atom.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quickjs-libc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quickjs-opcode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode_gen_def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
